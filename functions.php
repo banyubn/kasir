@@ -4,6 +4,8 @@ session_start();
 if (!isset($_SESSION["dataBarang"])) {
     $_SESSION["dataBarang"] = [];
 }
+
+//Function / APIs
 function create($barang, $harga, $jumlah)
 {
     if ($barang == "" || $harga == "" || $jumlah == "") {
