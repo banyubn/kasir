@@ -1,0 +1,53 @@
+.inp-txt {
+    font-size: 14px;
+    border-radius: 6px;
+    line-height: 1.5;
+    padding: 5px 10px;
+    transition: box-shadow 100ms ease-in, border 100ms ease-in, background-color 100ms ease-in;
+    border: 2px solid #dee1e2;
+    color: rgb(14, 14, 16);
+    background: #dee1e2;
+    display: block;
+    height: 45px;
+    width: 100%;
+}
+
+.sbt-button {
+    background-color: #ffd761;
+    border-radius: 10px;
+    box-shadow: rgba(187, 158, 44, 0.453) 0 -25px 18px -14px inset, rgba(187, 177, 44, 0.15) 0 1px 2px, rgba(187, 163, 44, 0.15) 0 2px 4px, rgba(187, 158, 44, 0.15) 0 4px 8px, rgba(185, 187, 44, 0.15) 0 8px 16px, rgba(187, 175, 44, 0.15) 0 16px 32px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: inline-block;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.sbt-button:hover {
+    box-shadow: rgba(187, 182, 44, 0.564) 0 -25px 18px -14px inset, rgba(187, 168, 44, 0.25) 0 1px 2px, rgba(203, 198, 59, 0.389) 0 2px 4px, rgba(187, 154, 44, 0.25) 0 4px 8px, rgba(182, 187, 44, 0.25) 0 8px 16px, rgba(177, 187, 44, 0.25) 0 16px 32px;
+    transform: scale(1.02);
+}
+
+.form {
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    a .item-label {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 444px) {
+    .reset {
+        display: block;
+    }
+
+}
